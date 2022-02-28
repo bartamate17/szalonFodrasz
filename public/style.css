@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #c2c4c3;
+    height: 100%;
+}
+
+header {
+    background-color: #885053;
+    height: 120px;
+}
+
+main {
+    background-color: #777da7;
+    height: 100%;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    display: inline-block;
+    padding: 35px;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    text-shadow: 1px 2px black;
+}
+
+#italic {
+    font-family: 'Playfair Display', serif;
+    color: rgb(187, 150, 91);
+}
+
+#adminLogin {
+    float: right;
+    margin: 50px 150px;
+    width: 200px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: 'Acme', sans-serif;
+    border-radius: 15px;
+    text-shadow: 1px 1px black;
+    text-transform: uppercase;
+}
+
+#space {
+    padding: 0;
+}
+
+#content {
+    padding: 150px 50px;
+}
+
+label {
+    font-size: 20px;
+    margin: 0 15px;
+}
+
+option {
+    width: 150px;
+}
+
+#availableSelect {
+    width: 150px;
+}
+
+#submitButton {
+    width: 150px;
+}
+
+#hairDresserSelectList {
+    margin-bottom: 30px;
+}
+
+#headerOption {
+    background-color: #535657;
+    color: white;
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 3px;
+}
+
+#nameOption {
+    background-color: #f4faff;
+    width: 100%;
+    font-size: 20px;
+    padding: 8px;
+}
+
+#dateOption {
+    background-color: #b7adcf;
+    width: 100%;
+    font-size: 20px;
+    padding: 8px;
+}
+
+#hourOption {
+    background-color: #f4faff;
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 10px solid black;
+    padding: 8px;
+}
+
+@media only screen and (max-width: 1366px) {
+    #adminLogin {
+        margin: 20px;
+    }
+    #reservedName {
+        margin-top: 50px;
+    }
+}
